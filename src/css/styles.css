@@ -1,3 +1,37 @@
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  /* Три рівні колонки */
+  gap: 10px;
+  /* Відстань між елементами */
+  padding: 0;
+  list-style: none;
+}
+
+.gallery-item {
+  max-width: 100%;
+  /* Забезпечує адаптивність елементів */
+}
+
+.gallery-link {
+  display: block;
+  text-decoration: none;
+  /* Видаляє підкреслення з посилань */
+}
+
+.gallery-image {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 8px;
+  transition: transform 0.3s ease;
+}
+
+.gallery-image:hover {
+  transform: scale(1.05);
+  /* Масштаб при наведенні */
+}
+
 /**
   |============================
   | include css partials with
