@@ -1,6 +1,5 @@
 const images = [
-  
-  { 
+  {
     preview:
       'https://cdn.pixabay.com/photo/2019/05/14/16/43/rchids-4202820__480.jpg',
     original:
@@ -86,4 +85,7 @@ function renderGallery() {
 renderGallery();
 
 // Ініціалізуйте SimpleLightbox
-let lightbox = new SimpleLightbox('.gallery a', { captionsData: 'alt', captionDelay: 250 });
+let lightbox = new SimpleLightbox('.gallery a', {
+  captionsData: 'alt',
+  captionDelay: 250,
+});

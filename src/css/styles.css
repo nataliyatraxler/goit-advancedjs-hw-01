@@ -29,7 +29,70 @@
 
 .gallery-image:hover {
   transform: scale(1.05);
-  /* Масштаб при наведенні */
+
+ 
+  .feedback-form {
+    width: 360px;
+    
+    margin: 0 auto;
+    padding: 24px;
+   
+    gap: 16px;
+    
+    border-radius: 8px;
+   
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    /* Тінь для форми */
+  }
+
+  /* Стилі для полів введення */
+  .feedback-form input,
+  .feedback-form textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 16px;
+    margin-bottom: 16px;
+    /* Відступ між полями */
+  }
+
+  /* Стилі для кнопки */
+  .feedback-form button {
+    background-color: #4e75ff;
+    
+    color: white;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+
+  .feedback-form button:hover {
+    background-color: #3a5ecc;
+  
+  }
+
+  .feedback-form button:active {
+    background-color: #2e4b99;
+    
+  }
+
+ 
+  .feedback-form input:hover,
+  .feedback-form textarea:hover {
+    border-color: #4e75ff;
+   
+  }
+
+  .feedback-form input:focus,
+  .feedback-form textarea:focus {
+    outline: none;
+    border-color: #4e75ff;
+    box-shadow: 0px 0px 5px rgba(78, 117, 255, 0.5);
+  }
+  
 }
 
 /**
