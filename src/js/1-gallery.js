@@ -62,8 +62,8 @@ const images = [
       'https://cdn.pixabay.com/photo/2019/05/17/04/35/lighthouse-4208843_1280.jpg',
     description: 'Lighthouse Coast Sea',
   },
-];
-
+]; 
+console.log("Hello");
 const galleryContainer = document.querySelector('.gallery');
 
 function createGalleryItem({ preview, original, description }) {
