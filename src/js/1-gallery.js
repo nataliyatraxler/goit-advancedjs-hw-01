@@ -64,7 +64,13 @@ const images = [
   },
 ]; 
 console.log("Hello");
+
+
+
+import SimpleLightbox from "simplelightbox";
+import "simplelightbox/dist/simple-lightbox.min.css";
 const galleryContainer = document.querySelector('.gallery');
+
 
 function createGalleryItem({ preview, original, description }) {
   const li = document.createElement('li');
